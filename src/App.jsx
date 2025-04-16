@@ -24,7 +24,7 @@ function handleChange(inputIdentifier,newValue) {
   return (
     <>
     <Header/>
-    <UserInput  onChange={handleChange} userInput={userInput}/>
+    <UserInput onChange={handleChange} userInput={userInput}/>
     <Results userInput={userInput}/>
     </>
   )
