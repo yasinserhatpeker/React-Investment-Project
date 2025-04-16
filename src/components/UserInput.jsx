@@ -29,7 +29,7 @@ export default function UserInput({userInput,onChange}) {
              <label>Duration</label>
              <input type="number" required 
              value={userInput.duration}
-              onChange={(event)=>onChange('expectedReturn',event.target.value)} />
+              onChange={(event)=>onChange('duration',event.target.value)} />
             </p>
         </div>
     </section>
